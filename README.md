@@ -211,6 +211,7 @@ The focus of this repository is the continuity problem itself, not the broader c
 - [`cases/false-completion.md`](cases/false-completion.md)
 - [`evaluation/open-questions.md`](evaluation/open-questions.md)
 - [`README_KO.md`](README_KO.md)
+- [`LICENSE`](LICENSE)
 
 ## Public scope
 
@@ -227,6 +228,14 @@ This is an experimental research project, not a production-ready continuity fram
 Publication is intended to invite critique of the problem framing, the distinction between memory and state, the completion rule, and the conceptual validation model.
 
 Critical feedback is preferred over endorsement.
+
+## License
+
+This work is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0). See [`LICENSE`](LICENSE).
+
+Copyright 2026 KIWON KIM
+
+When reusing or citing this material, please credit this repository (Human–AI State Continuity) and link to it.
 
 ## Feedback
 

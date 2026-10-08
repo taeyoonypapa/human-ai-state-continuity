@@ -207,6 +207,7 @@ State reconciliation은 memory, checkpoint, human work log 위에 추가될 수 
 - [`cases/false-completion.md`](cases/false-completion.md)
 - [`evaluation/open-questions.md`](evaluation/open-questions.md)
 - [`README.md`](README.md)
+- [`LICENSE`](LICENSE)
 
 ## 공개 범위
 
@@ -223,6 +224,14 @@ State reconciliation은 memory, checkpoint, human work log 위에 추가될 수 
 공개의 목적은 문제 정의, memory와 state의 구분, completion rule, 개념적 검증 모델에 대한 외부 비판을 받는 것입니다.
 
 단순한 지지보다 비판적인 피드백을 선호합니다.
+
+## 라이선스
+
+이 저작물은 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)(CC BY 4.0)에 따라 이용할 수 있습니다. [`LICENSE`](LICENSE)를 참고하세요.
+
+Copyright 2026 KIWON KIM
+
+재사용하거나 인용할 때는 이 저장소(Human–AI State Continuity)를 출처로 밝히고 링크를 달아 주세요.
 
 ## 피드백
 
