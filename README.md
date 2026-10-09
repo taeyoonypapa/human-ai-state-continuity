@@ -6,6 +6,20 @@ Version: v0.5 (revised 2026-10-09) · Status: experimental, conceptual
 
 **An experimental approach to a specific failure mode in long-running Human–AI collaboration: an AI may reconstruct enough past context to sound coherent while still deriving the wrong current work state.**
 
+## Research objective
+
+**The goal is not perfect memory. It is preventing incomplete memory from becoming an unsupported conclusion about the current work state.**
+
+When prior conversational context is incomplete, the system should consult available external records and chronologically ordered event traces, reconstruct the relevant state transitions, and verify whether unresolved obligations have actually been closed.
+
+A recent message is not necessarily authoritative closure evidence. Chronological ordering alone does not establish completeness or correctness.
+
+**When the evidence is insufficient, UNRESOLVED is preferable to an unsupported COMPLETE.**
+
+This is a conceptual research objective, not an empirically validated implementation.
+
+See [Evidence-Based State Reconstruction](docs/evidence-based-state-reconstruction.md) for the proposed approach and its limitations.
+
 ## Core claim
 
 The problem is not simply whether the model remembers enough.
