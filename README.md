@@ -221,6 +221,25 @@ This repository covers the **problem structure and a conceptual response** only.
 
 The approach has real weaknesses, including the risk that the externalized state is itself incomplete or stale. See [`docs/limitations.md`](docs/limitations.md).
 
+## Try a small continuity challenge
+
+A useful first test is to compare two reconstructions of the same workstream: one with an unresolved issue omitted, and another with the issue and its source preserved.
+
+1. Read the [hypothetical false-completion case](cases/false-completion.md).
+2. Ask a model to identify the current actionable state from only the partial reconstruction.
+3. Repeat with the unresolved issue, next intended step, and supporting source supplied.
+4. Record whether the model says COMPLETE, OPEN, or UNRESOLVED, and what evidence it cites.
+
+Treat this as an **illustrative evaluation prompt**, not an empirical result. A single interaction does not establish reliability or superiority over ordinary summaries or checklists.
+
+## Evaluation boundaries
+
+A correct-looking answer is not necessarily a correctly evidenced state. Compare against an independently specified expected state, not only the model's explanation.
+
+Externalized records may themselves be missing, stale, or contradictory. When closure evidence is absent, report **UNRESOLVED / not established** rather than silently inferring COMPLETE.
+
+See [open evaluation questions](evaluation/open-questions.md) and [known limitations](docs/limitations.md). Contributions demonstrating simpler alternatives or false OPEN cases are welcome.
+
 ## Project status
 
 This is an experimental research project, not a production-ready continuity framework or a generally validated standard.
